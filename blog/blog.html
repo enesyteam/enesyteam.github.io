@@ -30,7 +30,7 @@ permalink: /blog/
                         {% if site.changyan %}
                             <i class="fa fa-comments-o"> </i> <a>Comments (<span id = "url::{{post.url | prepend: site.url}}" class = "cy_cmt_count" ></span>)</a>
                         {% endif %}
-                        <div class="pull-right">
+                        <div class="vote-info">
                             {% for category in page.categories %}
                                 <button class="btn btn-white btn-xs" type="button">{{ category }}</button>
                             {% endfor %}
