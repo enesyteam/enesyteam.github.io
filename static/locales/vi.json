@@ -19,7 +19,7 @@
     "my_skills": "Kỹ năng"
   },
   "projects":{
-    "my_projects": "EnesyCAD",
+    "my_projects": "Các dự án của chúng tôi",
     "enesycad": "EnesyCAD là một tổ hợp thư viện liên kết động (DLL) được lập trình bằng ngôn ngữ C#, các thư viện này bao gồm các lệnh mở rộng cho AutoCAD được viết bởi Enesy Team nhằm hỗ trợ cho công việc của Kỹ sư cầu đường.",
     "jalpc": "Jalpc是一个非常简洁、漂亮和快速部署的Jekyll主题，它有非常全面的功能，可以很方便的修改和使用，适应多种设备。",
     "angularjs": "这是一个Angularjs写的前端应用，使用Jelyll部署在github的gh-pages上，后台使用Leancloud，你也可以使用Parse。",
