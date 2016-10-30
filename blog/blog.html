@@ -28,6 +28,7 @@ permalink: /blog/
                         </a>
                         <p style="margin-left:45px;">
                             {{ post.content | strip_html | truncate:200 }}
+                            <a href="{{ post.url }}"> Xem tiếp...</a>
                         </p>
                         <div class="vote-info">
                         {% for category in post.categories %}
