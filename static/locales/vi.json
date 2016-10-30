@@ -1,6 +1,6 @@
 {
   "website":{
-    "title": "ENESY"
+    "title": "Enesy Team Blog"
   },
   "nav":{
     "home": "Trang chủ",
@@ -9,7 +9,7 @@
     "projects": "Dự án",
     "career": "Nghề nghiệp",
     "blog": "Blog",
-    "link": "Liên kết"
+    "link": "Team"
   },
   "about_me":{
     "about_me": "Về Enesy Team",
