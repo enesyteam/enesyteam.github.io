@@ -14,10 +14,10 @@ layout: default
                             {% endfor %}
                         </div>
                         <div class="text-center article-title">
-                        <span class="text-muted"><i class="fa fa-clock-o"></i> {{ page.date | date: "%-d %b %Y" }}</span>
                             <h1>
                                 {{ page.title }}
                             </h1>
+                        <span class="text-muted"><i class="fa fa-clock-o"></i> {{ page.date | date: "%-d %b %Y" }}</span>
                         </div>
                     	   {{ content }}
                         <hr>
