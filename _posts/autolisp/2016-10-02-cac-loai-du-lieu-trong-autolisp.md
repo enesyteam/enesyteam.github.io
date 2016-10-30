@@ -3,7 +3,7 @@ layout: post
 title:  "Các loại dữ liệu AutoLISP"
 desc: "Tìm hiểu về các loại dữ liệu được sử dụng trong AutoLISP"
 keywords: "autolisp,enesy"
-date: 2016-10-01
+date: 2016-10-02
 categories: [AutoLISP]
 tags: [autolisp]
 icon: fa-bookmark-o
