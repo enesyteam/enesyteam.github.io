@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Jalpc"
+title: "Enesy"
 description: "Jack's blog,use Jekyll and github pages."
 keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
 baseurl: "/"
@@ -10,9 +10,9 @@ url: "https://enesyteam.github.io"
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
+  name: 'Enesy'
+  first_name: 'Enesy'
+  last_name: 'Enesy'
   email: 'me@jack003.com'
   facebook_username: 'jiakunnj'
   github_username: 'Jack614'
