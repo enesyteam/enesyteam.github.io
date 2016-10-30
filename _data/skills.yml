@@ -1,17 +1,11 @@
-- name: Python
-  percentage: 85
+- name: EnesyCAD
+  percentage: 30
 
-- name: HTML/CSS
-  percentage: 65
+- name: Shop Drawing
+  percentage: 20
 
-- name: Linux/Shell
-  percentage: 75
+- name: Detailing Guide
+  percentage: 50
 
-- name: jQuery
-  percentage: 80
-
-- name: AngularJS
-  percentage: 80
-
-- name: Ionic
-  percentage: 65
+- name: BIM Guide
+  percentage: 40
