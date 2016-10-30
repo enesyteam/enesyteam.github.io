@@ -48,8 +48,8 @@
     "my_blog": "Enesy Team's Blog"
   },
   "link":{
-    "link": "Liên kết hay",
-    "view": "link"
+    "link": "Danh sách thành viên",
+    "view": "Thành viên"
   }
 
 }
