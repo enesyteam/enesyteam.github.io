@@ -1,20 +1,20 @@
 - name: Blog
   href: '/blog/'
 
-- name: Python
-  href: '/python/'
+- name: AutoLISP
+  href: '/autolisp/'
 
 - name: ObjectARX
   href: '/objectarx/'
 
-- name: HTML
-  href: '/html/'
+- name: C++
+  href: '/cpp/'
 
 - name: AutoCAD
   href: '/autocad/'
 
-- name: Mac
-  href: '/mac/'
+- name: C#
+  href: '/csharp/'
 
 - name: Life
   href: '/life/'
