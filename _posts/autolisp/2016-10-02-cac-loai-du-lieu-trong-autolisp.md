@@ -6,7 +6,7 @@ keywords: "autolisp,enesy"
 date: 2016-10-02
 categories: [AutoLISP]
 tags: [autolisp]
-icon: fa-bookmark-o
+icon: fa-file-code-o
 ---
 
 ### Các loại dữ liệu Trong AutoLISP
