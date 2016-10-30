@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Tìm hiểu về các biểu thức trong AutoLISP"
