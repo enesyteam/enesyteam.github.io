@@ -13,6 +13,8 @@ icon: fa-bookmark-o
 
 > Đây là loạt bài mình dịch theo cuốn "The C++ Programming Language" của Bjarne Stroustrup (cha đẻ của C++). Các bạn có thể xem qua đánh giá về quyển sách này [tại đây](http://dangkhoasdc.github.io/review-the-C++-programming-language/).
 
+Mục đích của chương này và ba chương kế tiếp là cung cấp cho bạn một cái nhìn tổng quát nhất về C++, mà không cần phải đi quá sâu vào chi tiết. Chương này trình bày các quy ước
+
 The aim of this chapter and the next three is to give you an idea of what C++ is, without going into
 a lot of details. This chapter informally presents the notation of C++, C++’s model of memory and
 computation, and the basic mechanisms for organizing code into a program. These are the language facilities supporting the styles most often seen in C and sometimes called procedural programming. Chapter 3 follows up by presenting C++’s abstraction mechanisms. Chapter 4 and
