@@ -1,20 +1,23 @@
-- name: Blog
+- name: All
   href: '/blog/'
-
-- name: AutoLISP
-  href: '/autolisp/'
-
-- name: ObjectARX
-  href: '/objectarx/'
-
-- name: C++
-  href: '/cpp/'
 
 - name: AutoCAD
   href: '/autocad/'
 
+- name: AutoLISP
+  href: '/autolisp/'
+
 - name: C#
   href: '/csharp/'
 
-- name: Life
-  href: '/life/'
+- name: C++
+  href: '/cpp/'
+
+- name: ObjectARX
+  href: '/objectarx/'
+
+- name: Detailing
+  href: '/detailing/'
+
+- name: Others
+  href: '/others/'
