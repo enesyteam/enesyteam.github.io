@@ -20,10 +20,10 @@
   },
   "projects":{
     "my_projects": "Các dự án của chúng tôi",
-    "enesycad": "Management tool for AutoCAD commands by C#, AutoLisp language.",
-    "shopdrawing": "Help making Shop Drawings for Engineers",
-    "detailinggui": "Help Bridge Engineers making better design drawings",
-    "detailinggui": "An introduce to BIM technology for Bridge Engineers."
+    "enesycad": "Công cụ mở rộng và quản lý các lệnh dành cho Kỹ sư cầu đường.",
+    "shopdrawing": "Phần mềm tạo bản vẽ thiết kế dành cho Kỹ sư cầu đường.",
+    "detailinggui": "Trợ giúp Kỹ sư trong việc tạo các bản vẽ thiết kế.",
+    "bim": "Ứng dụng công nghệ BIM trong lĩnh vực cầu đường."
   },
   "career":{
     "my_career": "职业生涯",
