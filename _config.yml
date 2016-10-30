@@ -62,7 +62,7 @@ languages:
   - locale: 'en'
     flag: 'static/img/flags/United-States.png'
   - locale: 'vi'
-    flag: 'static/img/flags/China.png'
+    flag: 'static/img/flags/Vietnam.png'
 
 # blog img path
 img_path: 'http://www.jack003.com/static/img/blog'
