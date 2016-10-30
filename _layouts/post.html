@@ -7,6 +7,7 @@ layout: default
         <div class="col-lg-10 col-lg-offset-1">
             <div class="ibox">
                 <div class="ibox-content">
+<div class="entry-content">
                     <div class="pull-right">
                     	{% for category in page.categories %}
                         	<button class="btn btn-white btn-xs" type="button">{{ category }}</button>
@@ -18,9 +19,7 @@ layout: default
                             {{ page.title }}
                         </h1>
                     </div>
-                        <div class="entry-content">
-                    	   {{ content }}
-                        </div>  
+                	   {{ content }}
                     <hr>
 
                     <div class="row">
@@ -61,7 +60,7 @@ layout: default
                             {% include comments.html %}
                         </div>
                     </div>
-
+</div>
                 </div>
             </div>
         </div>
