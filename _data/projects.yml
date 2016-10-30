@@ -10,14 +10,14 @@
   img: 'static/img/landing/shopdrawing.png'
   desc: "Help making Shop Drawings for Engineers."
 
-- name: 'Project 3'
-  i18n: 'project3'
-  url: '/Jack614/Jalpc-A'
-  img: 'static/img/landing/angularjs.png'
-  desc: "It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well."
+- name: 'Detailing Guide'
+  i18n: 'detailingguide'
+  url: '/enesyteam/detailingguide'
+  img: 'static/img/landing/detailing.png'
+  desc: "Help Bridge Engineers making better design drawings."
 
-- name: 'Project 4'
-  i18n: 'project4'
-  url: '/Jack614/Rsser'
-  img: 'static/img/landing/rsser.png'
-  desc: Rsser is an Ionic application, with this application we can read news and articles freely, you can add rss address from the given list and add it manually.
+- name: 'BIM'
+  i18n: 'bim'
+  url: '/enesyteam/bim'
+  img: 'static/img/landing/bim.png'
+  desc: "An introduce to BIM technology for Bridge Engineers."
