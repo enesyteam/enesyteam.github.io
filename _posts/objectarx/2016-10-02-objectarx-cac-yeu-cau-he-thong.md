@@ -6,7 +6,7 @@ keywords: "objectarx,enesy"
 date: 2016-10-02
 categories: [ObjectARX]
 tags: [objectarx]
-icon: fa-bookmark-o
+icon: fa-file-code-o
 ---
 
 > Bài viết này nằm trong loạt bài hướng dẫn cơ bản về ObjectARX, bài này mình dịch từ Blog của Fernando Malard tại địa chỉ: [arxdummies.blogspot.com.br](http://arxdummies.blogspot.com.br).
