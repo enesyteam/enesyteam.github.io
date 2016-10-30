@@ -3,7 +3,7 @@ layout: post
 title:  "ObjectARX - Các yêu cầu hệ thống"
 desc: "Để bắt đầu lập trình AutoCAD với ObjectARX thì máy tính của bạn phải chuẩn bị một số thứ."
 keywords: "objectarx,enesy"
-date: 2016-10-01
+date: 2016-10-02
 categories: [ObjectARX]
 tags: [objectarx]
 icon: fa-bookmark-o
