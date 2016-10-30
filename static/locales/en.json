@@ -20,7 +20,7 @@
   },
   "projects":{
     "my_projects": "Our Projects",
-    "enesycad": "One Plugin for All Engineers .NET tool for management AutoCAD native commands, extend AutoCAD commands by C#, AutoLisp language. It's very usefull for Engineers, it optimize your work performance. Let's try it! you'll love it!",
+    "enesycad": "Management tool for AutoCAD commands by C#, AutoLisp language.",
     "shopdrawing": "Help making Shop Drawings for Engineers",
     "project3": "Description for Project 3",
     "project4": "Description for Project 4"
