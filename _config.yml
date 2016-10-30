@@ -82,7 +82,7 @@ disqus:
 
 # share
 bshare:
-  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
+  uuid: 
 
 # baidu analytics
 ba:
@@ -90,11 +90,11 @@ ba:
 
 # google analytics
 ga:
-  id: UA-73784599-1
+  id: 
 
 # growingIO
 gio:
-  id: a49d4901c7853da9
+  id: 
 
 # Build settings
 encoding: "utf-8"

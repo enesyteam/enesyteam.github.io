@@ -4,8 +4,8 @@
 - name: Python
   href: '/python/'
 
-- name: Linux
-  href: '/linux/'
+- name: ObjectARX
+  href: '/objectarx/'
 
 - name: HTML
   href: '/html/'
