@@ -6,7 +6,7 @@ keywords: "objectarx,enesy"
 date: 2016-10-01
 categories: [ObjectARX]
 tags: [objectarx]
-icon: fa-bookmark-o
+icon: fa-file-code-o
 ---
 
 `ObjectARX` (AutoCAD Runtime eXtension) is an API for customizing and extending AutoCAD. The ObjectARX SDK is published by Autodesk and freely available under license from Autodesk.[1] The ObjectARX SDK consists primarily of C++ headers and libraries that can be used to build Windows DLLs that can be loaded into the AutoCAD process and interact directly with the AutoCAD application. ObjectARX modules use the file extensions .arx and .dbx instead of the more common .dll.
