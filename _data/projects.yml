@@ -16,7 +16,7 @@
   img: 'static/img/landing/detailing.png'
   desc: "Help Bridge Engineers making better design drawings."
 
-- name: 'BIM'
+- name: 'BIM Guide'
   i18n: 'bim'
   url: '/enesyteam/bim'
   img: 'static/img/landing/bim.png'
