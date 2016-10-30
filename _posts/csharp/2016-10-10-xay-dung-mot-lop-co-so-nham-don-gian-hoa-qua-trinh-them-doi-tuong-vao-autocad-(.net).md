@@ -48,7 +48,7 @@ namespace EnesyCAD
         void Append(Document drawing);
 }
 ```
-Để ý giao diện này ta sẽ thấy nó bao gồm hai `Properties` là `Drawing` và `Transaction`, một phương thức là `Append`. Một đối tượng `Figure` kế thừa từ giao diện `IFigure` sẽ có dạng như sau:
+Để ý giao diện này ta sẽ thấy nó bao gồm hai `Properties` là `Drawing` và `Transaction`, một phương thức là `Append()`. Một đối tượng `Figure` kế thừa từ giao diện `IFigure` sẽ có dạng như sau:
 
 ```cs
 using System;
@@ -89,7 +89,6 @@ namespace EnesyCAD
         {
             get { return _children; }
             set { _children = value;
-            OnPropertyChanged("Children");
             }
         }
         public CompositeFigure()
@@ -147,7 +146,7 @@ namespace EnesyCAD
 }
 ```
 
-Hãy xem đoạn mã này: Chúng ta chỉ việc tạo ra 2 đối tượng hình học là `l1` và `l2`, sau đó thêm vào `Properties` của lớp cơ sở là `CompositeFigure` và cuối cùng là gọi phương thức `Append` của nó. Các công việc như tạo `Transaction`, mở `BlockTableRecord` để ghi, thêm đối tượng vào `Transaction`, thêm đối tượng vào `Database`, và `Commit` `Transaction` sẽ được thực hiện ở lớp cơ sở `CompositeFigure`. Chúng ta không cần phải quan tâm đến chúng nữa.
+Hãy xem đoạn mã này: Chúng ta chỉ việc tạo ra 2 đối tượng hình học là `l1` và `l2`, sau đó thêm vào `Properties` là `Children` của lớp cơ sở `CompositeFigure` và cuối cùng là gọi phương thức `Append()` của nó. Các công việc như tạo `Transaction`, mở `BlockTableRecord` để ghi, thêm đối tượng vào `Transaction`, thêm đối tượng vào `Database`, và `Commit` `Transaction` sẽ được thực hiện ở lớp cơ sở `CompositeFigure`. Chúng ta không cần phải quan tâm đến chúng nữa.
 
 Các bạn thấy giải pháp này như thế nào? Hãy thử áp dụng và xem hiệu quả của nó nhé! Xin chào và hẹn gặp lại các bạn trong các bài sau!
 
