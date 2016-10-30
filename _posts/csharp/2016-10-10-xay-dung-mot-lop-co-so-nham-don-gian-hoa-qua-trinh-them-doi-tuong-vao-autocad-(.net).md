@@ -20,3 +20,12 @@ Vấn đề thứ nhất: Không phải lúc nào bạn cũng nhớ gọi phươ
 	<figcaption>Lỗi xuất hiện do bạn quên đóng `Transaction`.</figcaption>
 </figure>
 
+Điều này thực sự tai hại, vì lỗi này sẽ khiến bạn phải đóng `AutoCAD` mà không thể lưu các bản vẽ hiện tại.
+
+Ngoài ra, một lỗi phổ biến khác cũng thường hay gặp phải khi mở `BlockTableRecord` để thêm đối tượng vào đó là bạn chỉ mở nó dưới dạng `ReadOnly` (tức là chỉ mở ra để đọc dữ liệu mà không có quyền ghi dữ liệu vào). Hãy xem đoạn mã sau đây:
+
+```cs
+BlockTableRecord btr = Transaction.GetObject(acDb.CurrentSpaceId, OpenMode.ForRead) as BlockTableRecord;
+```
+
+
