@@ -53,7 +53,7 @@ sections:
 
   - id: 'links'
     i18n: 'nav.link'
-    name: 'Links'
+    name: 'Teams'
     tpl: 'links.html'
     css: 'contact'
 
