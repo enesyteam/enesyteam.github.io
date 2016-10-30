@@ -8,7 +8,7 @@ permalink: /blog/
 <div class="row">
     <div class="col-lg-12 text-center">
         <div class="navy-line"></div>
-        <h1>Bài viết mới</h1>
+        <h1>10 Bài viết mới</h1>
     </div>
 </div>
 
@@ -17,9 +17,7 @@ permalink: /blog/
         <div class="wrapper wrapper-content animated fadeInRight">
 
             <!-- latest 10 blog -->
-                {% assign counter = 0 %}
-			{% for post in site.posts %}
-                    {% assign counter = counter | plus: 1 %}
+			{% for post in site.posts limit:10 %}
             <div class="vote-item">
                 <div class="row">
                     <div class="col-md-10">
@@ -28,6 +26,9 @@ permalink: /blog/
                         <a href="{{ post.url }}" class="vote-title">
                             {{ post.title }}
                         </a>
+                        <p>
+                            {{ post.content | strip_html | truncate:100 }}
+                        </p>
                         <div class="vote-info">
                         {% for category in post.categories %}
                             <i class="fa fa-folder-o"> </i> <a>{{ category }}</a>
@@ -52,7 +53,7 @@ permalink: /blog/
                 </div>
             </div>
             {% endfor %}
-        {% include pagination.html %}
+
         </div>
     </div>
 
