@@ -1,7 +1,7 @@
 - name: 'EnesyCAD'
   i18n: 'enesycad'
   url: '/enesyteam/EnesyCAD'
-  img: 'static/img/landing/saplatform.png'
+  img: 'static/img/landing/enesycad.png'
   desc: 'EnesyCAD là một tổ hợp thư viện liên kết động (DLL) được lập trình bằng ngôn ngữ C#, các thư viện này bao gồm các lệnh mở rộng cho AutoCAD được viết bởi Enesy Team nhằm hỗ trợ cho công việc của Kỹ sư cầu đường.'
 
 - name: 'Project 2'
