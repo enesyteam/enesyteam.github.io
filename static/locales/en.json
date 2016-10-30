@@ -21,9 +21,9 @@
   "projects":{
     "my_projects": "Our Projects",
     "enesycad": "One Plugin for All Engineers .NET tool for management AutoCAD native commands, extend AutoCAD commands by C#, AutoLisp language. It's very usefull for Engineers, it optimize your work performance. Let's try it! you'll love it!",
-    "project2": "Jalpc is a simple, beautiful and swift theme for Jekyll. It has comprehensive function, it can be easily used and edited. It's adapted for many kinds devices.",
-    "project3": "It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well.",
-    "project4": "Rsser is an Ionic application, with this application we can read news and articles freely, you can add rss address from the given list and add it manually."
+    "shopdrawing": "Help making Shop Drawings for Engineers",
+    "project3": "Description for Project 3",
+    "project4": "Description for Project 4"
   },
   "career":{
     "my_career": "My Career",
