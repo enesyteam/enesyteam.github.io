@@ -16,6 +16,9 @@
 - name: ObjectARX
   href: '/objectarx/'
 
+- name: BIM
+  href: '/bim/'
+
 - name: Detailing
   href: '/detailing/'
 
