@@ -1,11 +1,11 @@
-- last_name: Celine
-  first_name:
-  desc: 'Painter.'
-  website: 'http://angular.jack003.com'
-  email: '805963294@qq.com'
+- last_name: Cong
+  first_name: Nguyen
+  desc: 'Engineer.'
+  website: 'http://enesyteam.github.io'
+  email: 'congnvc@gmail.com'
 
-- last_name: Lucas
-  first_name: Schejtman
-  desc: 'Full Stack Developer.'
-  website: 'http://lucasschejtman.github.io'
-  email: 'lucas.schejtman@gmail.com'
+- last_name: Quan
+  first_name: Do
+  desc: 'Engineer'
+  website: 'http://enesyteam.github.io'
+  email: 'quan14814@gmail.com'
