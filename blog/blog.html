@@ -27,7 +27,7 @@ permalink: /blog/
                             {{ post.title }}
                         </a>
                         <p class="vote-title">
-                            {{ post.content | strip_html | truncate:100 }}
+                            {{ post.content | strip_html | truncate:200 }}
                         </p>
                         <div class="vote-info">
                         {% for category in post.categories %}
