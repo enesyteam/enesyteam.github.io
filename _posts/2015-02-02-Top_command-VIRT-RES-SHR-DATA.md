@@ -4,7 +4,7 @@ title:  "Top命令VIRT,RES,SHR,DATA的含义"
 date:   2015-02-02
 desc: "Linux Top命令VIRT,RES,SHR,DATA的含义"
 keywords: "top,linux,virt,res,shr,data"
-categories: [AutoCAD]
+categories: [Linux]
 tags: [top]
 icon: fa-linux
 ---
