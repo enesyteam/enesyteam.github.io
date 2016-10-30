@@ -3,7 +3,7 @@ layout: post
 title:  "ObjectARX là gì?"
 desc: "Tìm hiểu về một giao diện lập trình mạnh mẽ nhất dành cho AutoCAD."
 keywords: "objectarx,enesy"
-date: 2016-10-02
+date: 2016-10-01
 categories: [ObjectARX]
 tags: [objectarx]
 icon: fa-bookmark-o
