@@ -1,8 +1,8 @@
-- name: 'Saplatform'
-  i18n: 'saplatform'
-  url: '/Jack614/saplatform'
+- name: 'EnesyCAD'
+  i18n: 'enesycad'
+  url: '/enesyteam/EnesyCAD'
   img: 'static/img/landing/saplatform.png'
-  desc: 'Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.'
+  desc: 'EnesyCAD là một tổ hợp thư viện liên kết động (DLL) được lập trình bằng ngôn ngữ C#, các thư viện này bao gồm các lệnh mở rộng cho AutoCAD được viết bởi Enesy Team nhằm hỗ trợ cho công việc của Kỹ sư cầu đường.'
 
 - name: 'Jalpc'
   i18n: 'jalpc'
