@@ -16,3 +16,7 @@ icon: fa-bookmark-o
 <figure class="one">
 	<img src="/static/img/blog/csharp/2016-10-31-1.jpg" alt="">
 </figure>
+
+### Giải pháp
+
+Thay vì sử dụng các địa chỉ tuyệt đối, chúng ta sẽ sử dụng các địa chỉ tương đối (`relative path`) đối với đường dẫn các file `XREF`, tuy nhiên `AutoCAD` không cho phép chúng ta trực tiếp sửa các đường dẫn này trong cửa sổ `EXTERNAL REFERENCE`. May mắn thay là chúng ta có thể can thiệp được điều này thông qua `.NET`.
