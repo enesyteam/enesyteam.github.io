@@ -160,7 +160,13 @@ Khi bạn khởi động `AutoCAD` trong lần đầu tiên, các ký hiệu đ�
 	_$(setq t "look out"); ; User warning: assignment to protected symbol: T <- "look up" "look up"
 	```
 * **Prompt to enter break loop** Đây là tùy chọn mặc định, làm cho `AutoLISP` hiển thị hộp thông báo sau đây khi bạn cố gắng chỉnh sửa một ký hiệu được bảo vệ:
-Nếu bạn chọn `No`, giá trị của ký hiệu được chỉnh sửa, và việc xử lý tiếp tục một cách bình thường. Nếu bạn chọn `Yes`, việc xử lý ngắt và bạn nhập vào một vòng lặp ngắt `Visual LISP`. Sự điều khiển được điều chỉnh sang cửa sổ `Visual LISP Console`. Để xác lập ký hiệu và tiếp tục xử lý, nhấn nút `Continue` trên thanh công cụ `Visual LISP`; để hủy bỏ sự chỉnh sửa, nhấn `Reset`.
+
+<figure class="one">
+	<img src="/static/img/blog/csharp/2016-10-10-1.jpg" alt="">
+	<figcaption>Lỗi xuất hiện do bạn quên đóng `Transaction`.</figcaption>
+</figure>
+
+	Nếu bạn chọn `No`, giá trị của ký hiệu được chỉnh sửa, và việc xử lý tiếp tục một cách bình thường. Nếu bạn chọn `Yes`, việc xử lý ngắt và bạn nhập vào một vòng lặp ngắt `Visual LISP`. Sự điều khiển được điều chỉnh sang cửa sổ `Visual LISP Console`. Để xác lập ký hiệu và tiếp tục xử lý, nhấn nút `Continue` trên thanh công cụ `Visual LISP`; để hủy bỏ sự chỉnh sửa, nhấn `Reset`.
 
 * **Error** Tùy chọn này ngăn cản việc chỉnh sửa các ký hiệu được bảo vệ. Bất kỳ nỗ lực nhằm chỉnh sửa một ký hiệu được bảo vệ sẽ hiển thị một thông báo lỗi.
 
