@@ -61,8 +61,8 @@ Một sai sót nữa thường hay mắc phải là bỏ qua các dấu trích d
 ### Cú pháp hàm AutoLISP
 Các quy ước sau đây mô tả cú pháp cho các hàm `AutoLISP`:
 
-<figure>
-	<a href="/images/posts/autolisp/autolisp1.jpg"><img src="/images/posts/autolisp/autolisp1.jpg" alt=""></a>
+<figure class="one">
+	<a href="/static/img/blog/autolisp/autolisp1.jpg"><img src="/static/img/blog/autolisp/autolisp1.jpg" alt=""></a>
 </figure>
 
 Trong ví dụ này, hàm `foo` có một đối số được yêu cầu, `string`, và một đối số tùy ý, `number`. Các đối số `number` bổ sung có thể được cung cấp. Thông thường, tên của đối số được chỉ định loại dữ liệu được mong đợi. Các ví dụ trong bảng sau đây trình bày các lệnh gọi hợp lệ và không hợp lệ đến hàm `foo`.
@@ -78,6 +78,7 @@ Trong ví dụ này, hàm `foo` có một đối số được yêu cầu, `stri
 | `(foo "catch" 22 31)` |  `(foo)`    |
 |----
 {: rules="groups"}
+
 
 ## Luyện tập
 **Các lệnh gọi hàm sau đây là hợp lệ hay không hợp lệ?**
