@@ -97,8 +97,7 @@ gio:
   id:
 
 # time ago
-gems:
-  - jekyll-timeago
+gems: [jekyll-timeago]
 
 # Build settings
 encoding: "utf-8"
