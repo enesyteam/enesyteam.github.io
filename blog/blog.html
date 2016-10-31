@@ -15,9 +15,11 @@ permalink: /blog/
 <div class="row">
     <div class="col-lg-8 col-lg-offset-2">
         <div class="wrapper wrapper-content animated fadeInRight">
-
+        <ul id="pag-itemContainer" style="list-style:none;">
+    {% assign counter = 0 %}
             <!-- latest 10 blog -->
-			{% for post in site.posts limit:10 %}
+			{% for post in site.posts %}
+                    {% assign counter = counter | plus: 1 %}
             <div class="vote-item">
                 <div class="row">
                     <div class="col-md-10">
@@ -54,6 +56,8 @@ permalink: /blog/
                 </div>
             </div>
             {% endfor %}
+            </ul>
+            {% include pagination.html %}
         </div>
     </div>
 </div>
