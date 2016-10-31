@@ -17,9 +17,7 @@ permalink: /blog/
         <div class="wrapper wrapper-content animated fadeInRight">
 
             <!-- latest 10 blog -->
-                {% assign counter = 0 %}
-			{% for post in site.posts %}
-                    {% assign counter = counter | plus: 1 %}
+			{% for post in site.posts limit:10 %}
             <div class="vote-item">
                 <div class="row">
                     <div class="col-md-10">
@@ -57,6 +55,5 @@ permalink: /blog/
             </div>
             {% endfor %}
         </div>
-        {% include pagination.html %}
     </div>
 </div>
