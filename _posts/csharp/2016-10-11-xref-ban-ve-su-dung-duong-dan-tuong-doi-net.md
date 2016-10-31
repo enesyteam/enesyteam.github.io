@@ -20,3 +20,5 @@ icon: fa-bookmark-o
 ### Giải pháp
 
 Thay vì sử dụng các địa chỉ tuyệt đối, chúng ta sẽ sử dụng các địa chỉ tương đối (`relative path`) đối với đường dẫn các file `XREF`, tuy nhiên `AutoCAD` không cho phép chúng ta trực tiếp sửa các đường dẫn này trong cửa sổ `EXTERNAL REFERENCE`. May mắn thay là chúng ta có thể can thiệp được điều này thông qua `.NET`.
+
+Đầu tiên chúng ta sẽ tạo ra một `class` 
