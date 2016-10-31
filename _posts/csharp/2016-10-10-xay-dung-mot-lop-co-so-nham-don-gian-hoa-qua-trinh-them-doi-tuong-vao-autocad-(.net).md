@@ -9,7 +9,7 @@ tags: [autocad,transaction,.NET]
 icon: fa-bookmark-o
 ---
 
-### Đặt vấn đề
+## Đặt vấn đề
 
 Khi lập trình `AutoCAD` với các ngôn ngữ `.NET`, một điều bắt buộc khi bạn muốn thêm đối tượng vào bản vẽ đó là: Mở `Transaction`, thêm đối tượng vào `Database`, thêm nó vào `Transaction`, cuối cùng là `Commit() Transaction` này, lúc đó đối tượng mới được thêm vào bản vẽ. Tuy nhiên sẽ có hai vấn đề bạn thường gặp phải khi làm việc theo cách thức truyền thống này.
 
@@ -30,7 +30,7 @@ BlockTableRecord btr = Transaction.GetObject(acDb.CurrentSpaceId, OpenMode.ForRe
 
 Một điều đặc biệt cần chú ý là không phải lúc nào bạn cũng nên mở `BlockTableRecord` dưới dạng `ForWrite` bởi vì điều này tuy sẽ không ảnh hưởng nhiều đến tốc độ thực thi của lệnh trong các tiến trình đơn lẻ, nhưng hãy tưởng tượng bạn có một tiến trình gồm nhiều tiến trình con, trong đó các tiến trình con này đều mở `BlockTableRecord` dưới dạng `ForWrite` thì thời gian thực thi sẽ tăng lên nhiều nếu nó thực sự không cần thiết phải mở dưới dạng `ForWrite`.
 
-### Giải pháp
+## Giải pháp
 
 Thay vì phải luôn luôn để ý đến các điểm mấu chốt như đã nói trên, tại sao chúng ta không viết một `class` cơ sở, trong đó có chứa một phương thức thêm đối tượng vào bản vẽ mà nó thực hiện các khâu này một cách chuẩn mực. Như vậy chúng ta sẽ không cần phải để ý đến việc phải thêm đối tượng vào bản vẽ như thế nào, thay vào đó chúng ta chỉ việc gọi phương thức thêm đối tượng của lớp cơ sở. Để dễ hình dung từng bước tạo một `class` như vậy, mình sẽ bắt đầu bằng việc viết giao diện (`interface`) cho nó như sau:
 
@@ -114,7 +114,7 @@ namespace EnesyCAD
 
 ```
 
-### Ứng dụng
+## Ứng dụng
 
 Giả sử bạn muốn thêm một đối tượng phức hợp đơn giản gồm hai đoạn thẳng vào bản vẽ, đoạn mã này sẽ được viết như sau:
 
@@ -149,5 +149,7 @@ namespace EnesyCAD
 Hãy xem đoạn mã này: Chúng ta chỉ việc tạo ra 2 đối tượng hình học là `l1` và `l2`, sau đó thêm vào `Properties` là `Children` của lớp cơ sở `CompositeFigure` và cuối cùng là gọi phương thức `Append()` của nó. Các công việc như tạo `Transaction`, mở `BlockTableRecord` để ghi, thêm đối tượng vào `Transaction`, thêm đối tượng vào `Database`, và `Commit` `Transaction` sẽ được thực hiện ở lớp cơ sở `CompositeFigure`. Chúng ta không cần phải quan tâm đến chúng nữa.
 
 Các bạn thấy giải pháp này như thế nào? Hãy thử áp dụng và xem hiệu quả của nó nhé! Xin chào và hẹn gặp lại các bạn trong các bài sau!
+
+## Tải mã nguồn
 
 
