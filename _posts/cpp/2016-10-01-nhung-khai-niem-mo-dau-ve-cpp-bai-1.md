@@ -11,7 +11,7 @@ icon: fa-bookmark-o
 
 ## 2.1 Giới thiệu
 
-> Đây là loạt bài mình dịch theo cuốn "The C++ Programming Language" của Bjarne Stroustrup (cha đẻ của C++). Các bạn có thể xem qua đánh giá về quyển sách này [tại đây](http://dangkhoasdc.github.io/review-the-C++-programming-language/).
+> Đây là loạt bài mình dịch theo cuốn "The C++ Programming Language" của Bjarne Stroustrup (cha đẻ của C++). Các bạn có thể xem qua đánh giá về quyển sách này [tại đây](http://dangkhoasdc.github.io/review-the-C++-programming-language/){:target="_blank"}.
 
 Mục đích của chương này và ba chương kế tiếp là cung cấp cho bạn một cái nhìn tổng quát nhất về C++, mà không cần phải đi quá sâu vào chi tiết. Chương này trình bày các quy ước
 
